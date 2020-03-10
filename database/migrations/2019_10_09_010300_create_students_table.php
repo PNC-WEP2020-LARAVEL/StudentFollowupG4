@@ -15,11 +15,11 @@ class CreateStudentsTable extends Migration
     {
         Schema::create('students', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('firsname');
+            $table->string('firstname');
             $table->string('lastname');
             $table->string('gender');
             $table->string('class');
-            $table->integer('year');
+            $table->string('year');
             $table->string('picture');
             $table->string('province');
             $table->boolean('status');

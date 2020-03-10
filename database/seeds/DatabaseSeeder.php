@@ -16,8 +16,10 @@ class DatabaseSeeder extends Seeder
            DB::table('students')->insert([
                'firstname' =>$faker->firstName,
                'lastname' =>$faker->lastName,
-               'gender' =>$faker->gender,
+               'gender' =>$faker->randomElement($array = array ('M','F')) ,
                'class' =>$faker->randomLetter,
+               'picture' =>$faker->text,
+               'year' =>$faker->numberBetween($min = 2019, $max = 2022),
                'province' =>$faker->city,
                'status' =>$faker->boolean,
            ]);

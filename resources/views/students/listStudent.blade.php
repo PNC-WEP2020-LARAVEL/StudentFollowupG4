@@ -3,8 +3,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <a href="" class="btn btn-primary mb-2">Add New</a>
                 <table class="table table-bordered table-stripe">
-                    <thead>
+                    <thead class="text-center">
                         <tr>
                             <th>ID</th>
                             <th>First Name</th>
@@ -13,6 +14,7 @@
                             <th>Year</th>
                             <th>Class</th>
                             <th>Province</th>
+                            <th>Status</th>
                         </tr>
                     </thead>
                 </table>

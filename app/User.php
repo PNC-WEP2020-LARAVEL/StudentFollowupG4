@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'firstname', 'lastname', 'position',
+        'firstname', 'lastname', 'email', 'position',
     ];
 
     /**
@@ -36,4 +36,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    public function students() {
+        return $this->hasMany(Student::class);
+    }
+    public function comments() {
+        return $this->hasMany(Comment::class);
+    }
 }

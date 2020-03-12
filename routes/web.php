@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/liststudent', function () {
+    return view('students.listStudent');
+});
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

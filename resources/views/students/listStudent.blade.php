@@ -3,6 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <a href="" class="btn btn-primary mb-2">Add New</a>
                 <table class="table table-bordered table-stripe">
                     <thead>
                         <tr>

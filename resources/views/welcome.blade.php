@@ -85,14 +85,9 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">All Student at PNC</a>
+                    <a href="{{route('liststudent')}}">All Student at PNC</a>
                     <a href="https://laracasts.com">Student FollowUp</a>
                     <a href="https://laravel-news.com">Student Out Followup</a>
-                    {{-- <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a> --}}
                 </div>
             </div>
         </div>

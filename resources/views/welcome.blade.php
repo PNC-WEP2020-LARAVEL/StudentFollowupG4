@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">All Student at PNC</a>
+                    <a href="{{route('student.index')}}">All Student at PNC</a>
                     <a href="https://laracasts.com">Student FollowUp</a>
                     <a href="https://laravel-news.com">Student Out Followup</a>
                     {{-- <a href="https://blog.laravel.com">Blog</a>
